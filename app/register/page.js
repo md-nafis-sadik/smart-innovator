@@ -1,8 +1,10 @@
+"use client";
+
 import React, { useState } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import axios from "axios";
 import Link from "next/link";
-import "../app/globals.css";
+import "../globals.css";
 
 const Register = () => {
   const [name, setName] = useState("");

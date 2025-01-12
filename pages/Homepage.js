@@ -1,6 +1,6 @@
 "use client"
 
-import HomeLayout from "@/layouts/HomeLayout";
+import HomeLayout from "../layouts/HomeLayout";
 import Image from "next/image";
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from "next/link";

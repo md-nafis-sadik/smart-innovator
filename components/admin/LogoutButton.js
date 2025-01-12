@@ -1,5 +1,5 @@
 import Cookies from "js-cookie";
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import axios from 'axios';
 
 const LogoutButton = () => {

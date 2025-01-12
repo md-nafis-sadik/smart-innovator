@@ -1,9 +1,11 @@
+"use client";
+
 import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
 import axios from "axios";
-import "../app/globals.css";
+import "../globals.css";
 import Link from "next/link";
 
 const Login = () => {

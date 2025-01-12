@@ -7,7 +7,7 @@ import Homepage from '../pages/Homepage';
 import Header from '../components/Header';
 import { useState, useRef } from 'react';
 import Sidebar from '../components/Sidebar';
-import Footer from "@/components/Footer";
+import Footer from "../components/Footer";
 
 export default function HomeLayout({children}) {
     const [showSidebar, setShowSidebar] = useState(false); // State for ThemeSettings visibility
