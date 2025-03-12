@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'cover': "url('/cover.png')",
-        'middle-sec': "url('/middle-sec.jpeg')",
+        'cover': "url('/cover.webp')",
+        'middle-sec': "url('/middle-sec.webp')",
         'login': "url('/background.svg')"
       },
       colors: {

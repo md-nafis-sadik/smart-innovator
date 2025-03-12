@@ -263,10 +263,10 @@ export default function Homepage() {
   </span>
 
   {/* Vertical Line */}
-  <div className="w-[1px] h-10 lg:h-[calc(100%-115px)] bg-[#25245d] mx-auto"></div>
+  <div className="w-[1px] h-10 xl:h-[calc(100%-115px)] bg-[#25245d] mx-auto"></div>
 
   {/* Text */}
-  <h4 className="w-[100px] text-center md:w-auto mt-6 text-md md:text-xl text-[#25245d] font-semibold">
+  <h4 className="w-[100px] text-center md:w-auto mt-2 text-md md:text-xl text-[#25245d] font-semibold">
     Strategy
   </h4>
 </div>
@@ -300,8 +300,8 @@ export default function Homepage() {
                 <span className="border border-[#25245d] font-semibold text-lg md:text-xl xl:text-lg w-[60px] h-[60px] xl:w-20 xl:h-20 rounded-full flex items-center justify-center mx-auto xl:mx-4">
                   02
                 </span>
-                <div className="w-[1px] h-10 lg:h-[calc(100%-115px)] bg-[#25245d] mx-auto"></div>
-                <h4 className="w-[100px] text-center md:w-auto mt-6 text-md md:text-xl text-[#25245d] font-semibold">Design</h4>
+                <div className="w-[1px] h-10 xl:h-[calc(100%-115px)] bg-[#25245d] mx-auto"></div>
+                <h4 className="w-[100px] text-center md:w-auto mt-2 text-md md:text-xl text-[#25245d] font-semibold">Design</h4>
               </div>
               <div className="border text-[15px] border-orange-400 px-6 py-8 rounded-tr-[50px] rounded-b-[50px] mt-0 md:mt-[20px] xl:mt-[60px]">
                 <p>
@@ -312,7 +312,7 @@ export default function Homepage() {
             <div className="absolute xl:static flex bottom-[-20px] right-[-20px] xl:justify-start mt-8">
               <figure className="rounded-full bg-[#fff8e5] p-6 xl:p-10">
                 <Image
-                  src="https://www.pixlogix.com/wp-content/uploads/2023/02/strategy.svg"
+                  src="https://www.pixlogix.com/wp-content/uploads/2023/02/design-svg.svg"
                   alt="Strategy"
                   width={30}
                   height={30}
@@ -331,8 +331,8 @@ export default function Homepage() {
                 <span className="border border-[#25245d] font-semibold text-lg md:text-xl xl:text-lg w-[60px] h-[60px] xl:w-20 xl:h-20 rounded-full flex items-center justify-center mx-auto xl:mx-4">
                   03
                 </span>
-                <div className="w-[1px] h-10 lg:h-[calc(100%-115px)] bg-[#25245d] mx-auto"></div>
-                <h4 className="w-[100px] text-center md:w-auto mt-6 text-md md:text-xl text-[#25245d] font-semibold">Technology</h4>
+                <div className="w-[1px] h-10 xl:h-[calc(100%-115px)] bg-[#25245d] mx-auto"></div>
+                <h4 className="w-[100px] text-center md:w-auto mt-2 text-md md:text-xl text-[#25245d] font-semibold">Technology</h4>
               </div>
               <div className="border text-[15px] border-red-400 px-6 py-8 rounded-tr-[50px] rounded-b-[50px] mt-0 md:mt-[20px] xl:mt-[60px]">
                 <p>
@@ -343,7 +343,7 @@ export default function Homepage() {
             <div className="absolute xl:static flex bottom-[-20px] right-[-20px] xl:justify-start mt-8">
               <figure className="rounded-full bg-[#fef0f0] p-6 xl:p-10">
                 <Image
-                  src="https://www.pixlogix.com/wp-content/uploads/2023/02/strategy.svg"
+                  src="https://www.pixlogix.com/wp-content/uploads/2023/02/technology-svg.svg"
                   alt="Strategy"
                   width={30}
                   height={30}
