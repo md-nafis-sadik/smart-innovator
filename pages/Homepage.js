@@ -270,7 +270,7 @@ export default function Homepage() {
     <div
       className="imn flex justify-between mb-6 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-6"
     >
-      <img src={service.icon} alt="Service Icon" className="w-12" />
+      <Image src={service.icon} width={33} height={33} alt="" className="w-12" />
       <div
         className="font-extrabold text-5xl"
         style={{ color: fixedColors[index % fixedColors.length] }}
@@ -332,7 +332,7 @@ export default function Homepage() {
             <div className="px-10 md:px-16 lg:px-24 py-20 bg-white border border-[#8cff00]">
             <div className="flex items-center mb-6">
             <div className="bg-gradient-to-b from-green-100 via-green-200 to-green-100 rounded-md p-4 border border-[#8cff00]">
-            <img src="/icon1.png" alt="logo" className="w-5" />
+            <Image src="/icon1.png"  width={33} height={33} alt="" className="w-5" />
             </div>
             <div className="font-bold text-xl ml-4 text-gray-800">Expertise</div>
             </div>
@@ -344,7 +344,7 @@ export default function Homepage() {
             <div className="px-10 md:px-16 lg:px-24 py-20 bg-white border border-[#8cff00]">
             <div className="flex items-center mb-6">
             <div className="bg-gradient-to-b from-green-100 via-green-200 to-green-100 rounded-md p-4 border border-[#8cff00]">
-            <img src="/icon2.png" alt="logo" className="w-5" />
+            <Image src="/icon2.png"  width={33} height={33} alt="" className="w-5" />
             </div>
             <div className="font-bold text-xl ml-4 text-gray-800">Client-Centric Approach</div>
             </div>
@@ -356,7 +356,7 @@ export default function Homepage() {
             <div className="px-10 md:px-16 lg:px-24 py-20 bg-white border border-[#8cff00]">
             <div className="flex items-center mb-6">
             <div className="bg-gradient-to-b from-green-100 via-green-200 to-green-100 rounded-md p-4 border border-[#8cff00]">
-            <img src="/icon.png" alt="logo" className="w-4" />
+            <Image src="/icon.png"  width={33} height={33} alt="" className="w-4" />
             </div>
             <div className="font-bold text-xl ml-4 text-gray-800">Results-Driven Solutions</div>
             </div>
@@ -368,7 +368,7 @@ export default function Homepage() {
             <div className="px-10 md:px-16 lg:px-24 py-20 bg-white border border-[#8cff00]">
             <div className="flex items-center mb-6">
             <div className="bg-gradient-to-b from-green-100 via-green-200 to-green-100 rounded-md p-4 border border-[#8cff00]">
-            <img src="/icon4.png" alt="logo" className="w-5" />
+            <Image src="/icon4.png"  width={33} height={33} alt="" className="w-5" />
             </div>
             <div className="font-bold text-xl ml-4 text-gray-800">Collaborative Partnership</div>
             </div>
@@ -740,7 +740,7 @@ export default function Homepage() {
         </div> */}
 
 
-<img src='/work-process2.svg' />
+    <Image src='/work-process2.svg' width={33} height={33} alt="" />
 
         
       </div>
