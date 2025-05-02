@@ -1,9 +1,5 @@
 "use client"
 
-
-import Image from "next/image";
-import Homepage from '../pages/Homepage';
-
 import Header from '../components/Header';
 import { useState, useRef } from 'react';
 import Sidebar from '../components/Sidebar';
@@ -29,13 +25,13 @@ export default function HomeLayout({children}) {
   };
   return (
     <>
-      <Header toggleSidebar={toggleSidebar}  toggleClasses={toggleClasses}/>
+      <Header toggleSidebar={toggleSidebar} toggleClasses={toggleClasses}/>
 
       {children}
 
       {showSidebar && <Sidebar toggleSidebar={toggleSidebar} />}
 
-    <Footer />
+      <Footer />
     </>
   );
 }
